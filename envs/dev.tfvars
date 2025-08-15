@@ -1,1 +1,3 @@
-example_var = "training-run"
+project_id = "dummy-project"
+region     = "us-central1"
+zone       = "us-central1-a"
