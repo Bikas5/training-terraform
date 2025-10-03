@@ -18,6 +18,3 @@ jobs:
 
      - name: Terraform Init
        run: terraform init
-
-     - name: Terraform Apply
-       run: cd infra/terraform && terraform apply -auto-approve -var-file="envs/dev.tfvars"
